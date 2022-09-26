@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> welcome to the login page </title>
+</head>
+<style type="text/css">
+    body {
+        background-color: beige;
+
+    }
+
+    div {
+        width: 500px;
+        height: 500px;
+        border: 1px solid red;
+        margin: 0 auto;
+        padding: 130px;
+        box-sizing: border-box;
+        background-color: brown;
+    }
+</style>
+
+<body>
+    <center>
+        <h1> wel come to the login page </h1>
+    </center>
+    <hr>
+    <div>
+        username:<br>
+        <input type="text" name="text" id="username">
+        <br><br>
+
+        password:<br>
+        <input type="password" name="text" id="password">
+        <br>
+        <br>
+
+        <button onclick="login()"> summit </button>
+
+    </div>
+    <script type="text/javascript">
+        function login() {
+            var name = document.getElementById('username').value;
+            var pass = document.getElementById('password').value;
+
+            if (uname == "world" && pass == "123")
+            {
+                location.assign("file:///C:/Users/Dell/OneDrive/Desktop/html%20tanay%20sir/frame.html");
+            }
+                else {
+                window.alert("failed");
+            }
+        }
+
+    </script>
+</body>
+
+</html>
